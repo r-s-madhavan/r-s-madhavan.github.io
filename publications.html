@@ -45,7 +45,13 @@
       line-height: 1.5;
       color: #555;
     }
-  </style>
+ 
+    /* FIX: Only link text clickable, not entire line */
+    .publication-desc a {
+      display: inline;
+      text-decoration: underline;
+    }
+  </style> 
 </head>
 <body>
   <!-- Navigation tabs -->
