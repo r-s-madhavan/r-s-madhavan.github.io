@@ -2,22 +2,79 @@
 <html lang="en">
 <head>
   <meta charset="utf-8">
-  <title>Rajalakshmi Madhavan</title>
+  <title>About</title>
+  <style>
+    /* Set Arial Narrow font for entire page */
+    body { 
+      font-family: 'Arial Narrow', Arial, sans-serif; 
+      margin: 0; 
+      padding: 20px; 
+    }
+    
+    /* Navigation tabs */
+    .tabs { 
+      background: #f0f0f0; 
+      padding: 10px 0; 
+      margin-bottom: 20px; 
+    }
+    .tabs a { 
+      display: inline-block; 
+      padding: 10px 20px; 
+      text-decoration: none; 
+      color: #333; 
+      border-radius: 5px 5px 0 0; 
+    }
+    .tabs a:hover { background: white; }
+    
+    /* Main content layout */
+    .main { 
+      display: flex; 
+      gap: 30px; 
+      max-width: 800px; 
+      margin: 0 auto; 
+    }
+    .photo { 
+      flex: 0 0 250px; 
+    }
+    .photo img { 
+      width: 100%; 
+      border-radius: 10px; 
+    }
+    .content { 
+      flex: 1; 
+    }
+    .subtitle { 
+      color: #666; 
+      font-style: italic; 
+      margin: 0 0 20px 0; 
+    }
+  </style>
 </head>
 <body>
-  <header>
-    <h1>About me</h1>
-    <p class="subtitle">Postdoctoral Researcher</p>
-  </header>
+  <!-- Navigation tabs -->
+  <nav class="tabs">
+    <a href="index.html">About</a>
+    <a href="projects.html">Publications</a>
+    <a href="contact.html">Contact</a>
+  </nav>
 
-  <p>My name is Raji, and I am currently a Postdoctoral Researcher at the Centre for Data Science in Humanities at Chosun University, South Korea, working under Prof. Eon-Suk Ko. Along with Prof. Ko and Dr. Katie von Holzen, I co-lead the ManyBabies-AtHome: Word Recognition project, which is a remote, cross-linguistic study investigating the genralisability of the standard looking-while-listening task used in developmental research.
+  <!-- Main content: image left, text right -->
+  <div class="main">
+    <div class="photo">
+      <img src="rsmadhavan.jpg">
+    </div>
+    <div class="content">
+      <h1>Rajalakshmi Madhavan</h1>
+      <p class="subtitle">Postdoctoral Researcher</p>
+      <p>My name is Raji, and I am currently a Postdoctoral Researcher at the Centre for Data Science in Humanities at Chosun University, South Korea, working under Prof. Eon-Suk Ko. Along with Prof. Ko and Dr. Katie von Holzen, I co-lead the ManyBabies-AtHome: Word Recognition project, which is a remote, cross-linguistic study investigating the genralisability of the standard looking-while-listening task used in developmental research.
 
 In my previous Postdoctoral role, I was a Research Associate under Dr. Catherine Laing, in the Department of Language and Linguistic Science at the University of York. In Dr. Laing's UKRI funded project, SENFM, we investigate the role of sensorimotor feedback as a mechanism of learning in early infancy and childhood, zooming in on the interaction between an infant's vocal development in their first year and their initial language environment. The aim is to understand how these interactions contribute to the acquisition and development of speech sounds, and ultimately, an infant's first words. 
 
 I completed my PhD at the University of Göttingen, Germany, under Prof. Dr. Nivedita Mani. During my PhD, which I defended on 26 August 2024, I investigated parent-child dynamics in social interactions, and how they influence early language learning. Particularly, I examined how parental input and children's selective interests in various topics influence features of caregiver-child interactions, and subsequently, novel word learning from these interactions. I used various eye-tracking and behavioural measures, in different lab-based and naturalistic settings. 
 
 My research focuses on young children's language development, and I'm particularly interested in exploring how their caregiver's input and caregiver-child interactions influence this process. I am also passionate about Open Research and replicable research practices in developmental research - specifically, establishing sustainable and low-resource research methods and practices that are generalisable across languages and cultures. </p>
-
-  <img src="rsmadhavan.jpg" >
+</p>
+    </div>
+  </div>
 </body>
 </html>
