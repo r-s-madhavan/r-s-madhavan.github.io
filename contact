@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8">
+  <title>Contact - About me</title>
+  <style>
+    /* Set Arial Narrow font for entire page */
+    body { 
+      font-family: 'Arial Narrow', Arial, sans-serif; 
+      margin: 0; 
+      padding: 20px; 
+    }
+    
+    /* Navigation tabs */
+    .tabs { 
+      background: #f0f0f0; 
+      padding: 10px 0; 
+      margin-bottom: 20px; 
+    }
+    .tabs a { 
+      display: inline-block; 
+      padding: 10px 20px; 
+      text-decoration: none; 
+      color: #333; 
+      border-radius: 5px 5px 0 0; 
+    }
+    .tabs a:hover { background: white; }
+    
+    /* Contact content */
+    .contact { 
+      max-width: 800px; 
+      margin: 0 auto; 
+      line-height: 1.6;
+    }
+    .contact-item {
+      margin-bottom: 20px;
+    }
+    .contact-label {
+      font-weight: bold;
+      color: #333;
+      font-size: 16px;
+    }
+    .contact-info {
+      color: #555;
+      margin-top: 5px;
+    }
+  </style>
+</head>
+<body>
+  <!-- Navigation tabs -->
+  <nav class="tabs">
+    <a href="index.html">Rajalakshmi Madhavan</a>
+    <a href="publications.html">Publications</a>
+    <a href="curriculum-vitae.html">CV</a>
+    <a href="contact.html">Contact</a>
+  </nav>
+
+  <!-- Contact content -->
+  <div class="contact">
+    <div class="contact-item">
+      <div class="contact-label">Email</div>
+      <div class="contact-info">
+        rsmadhavan@chosun.ac.kr
+      </div>
+    </div>
+    
+    
+    <div class="contact-item">
+      <div class="contact-label">LinkedIn</div>
+      <div class="contact-info">
+        <a href="https://www.linkedin.com/in/rajalakshmi-madhavan-4a5825100/">https://www.linkedin.com/in/rajalakshmi-madhavan</a>
+      </div>
+    </div>
+    
+    <div class="contact-item">
+      <div class="contact-label">OSF page</div>
+      <div class="contact-info">
+        <a href=" https://osf.io/zvnmh/"> https://osf.io/zvnmh/</a>
+      </div>
+    </div>
+
+    
+    </div>
+  </div>
+</body>
+</html>
